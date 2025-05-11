@@ -7,7 +7,7 @@
 A weather tracking application built for the Android Internship Task 2025. This app demonstrates native Android development without relying on third-party libraries, showcasing pure Android capabilities and best practices.
 
 ## Screenshots
-
+ hade weather alarms if theirs any  
 <div style="display: flex; justify-content: space-between;">
     <img src="screenshots/weather_alert.png" width="200" alt="Home Screen"/>
    
@@ -15,7 +15,11 @@ A weather tracking application built for the Android Internship Task 2025. This 
 
 ## Demo Video
 
-[Watch Demo Video](demo/jawwi_demo.mp4)
+[//]: # ([Watch Demo Video]&#40;demo/jawwi_demo.mp4&#41;)
+<div style="display: flex; justify-content: space-between;">
+    <video src="demo/jawwi_demo.mp4" width="1000" alt="demo video"/>
+
+</div>
 
 ## ✅ Task Requirements Fulfilled
 
@@ -115,7 +119,3 @@ BASE_URL=your_base_url_here
 - Minimum SDK: 26 (Android 8.0)
 - Target SDK: 35
 - Kotlin version: 2.0.21
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
