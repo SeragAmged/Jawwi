@@ -15,7 +15,7 @@ A weather tracking application built for the Android Internship Task 2025. This 
 
 ## Demo Video
 
-[//]: # ([Watch Demo Video]&#40;demo/jawwi_demo.mp4&#41;)
+[Watch Demo Video](demo/jawwi_demo.mp4)
 <div style="display: flex; justify-content: space-between;">
     <video src="demo/jawwi_demo.mp4" width="1000" ></video>
 
