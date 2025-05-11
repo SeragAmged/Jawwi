@@ -4,10 +4,19 @@
   <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="128" height="128" alt="Jawwi App Icon"/>
 </div>
 
-A weather tracking application built for the Android Internship Task 2025. This app demonstrates native Android development without relying on third-party libraries, showcasing pure Android capabilities and best practices.
+## Download
+
+<div >
+  <a href="https://github.com/SeragAmged/Jawwi/releases/download/jawwi_apk/jawwi.apk" style="display: inline-block; background-color:rgb(0, 0, 0); color: white; padding: 16px 32px; text-decoration: none; border-radius: 6px; font-size: 20px; font-weight: bold;">
+   Download Jawwi APK  ⬇️
+  </a>
+</div>
+
 
 ## Screenshots
- hade weather alarms if theirs any  
+
+hade weather alarms if theirs any
+
 <div style="display: flex; justify-content: space-between;">
     <img src="screenshots/weather_alert.png" width="200" alt="Home Screen"/>
    
@@ -16,6 +25,7 @@ A weather tracking application built for the Android Internship Task 2025. This 
 ## Demo Video
 
 [Watch Demo Video](demo/jawwi_demo.mp4)
+
 <div style="display: flex; justify-content: space-between;">
     <video src="demo/jawwi_demo.mp4" width="1000" ></video>
 
@@ -24,22 +34,27 @@ A weather tracking application built for the Android Internship Task 2025. This 
 ## ✅ Task Requirements Fulfilled
 
 ### Core Requirements
+
 1. **Location Services** ✓
+
    - Implements native Android location services
    - Accurately retrieves user's GPS coordinates (latitude, longitude)
    - Proper permission handling for location access
 
 2. **Weather Data** ✓
+
    - Fetches current weather conditions
    - Retrieves 5-day weather forecast
    - Uses native HttpURLConnection for API calls (no Retrofit/Volley)
 
 3. **Dual Screen Interface** ✓
+
    - Home screen displays current weather
    - Dedicated screen for 5-day forecast
    - Smooth navigation between screens
 
 4. **Real-time Updates** ✓
+
    - Pull-to-refresh functionality
    - Updates weather data on demand
    - Smooth loading state handling
@@ -61,6 +76,7 @@ A weather tracking application built for the Android Internship Task 2025. This 
 ### Bonus Features Implemented
 
 1. **Data Persistence** ✓
+
    - Caches last retrieved weather data
    - Available offline after initial fetch
    - Uses native Android SharedPreferences
@@ -101,11 +117,13 @@ A weather tracking application built for the Android Internship Task 2025. This 
 ## Building the Project
 
 1. Clone the repository
+
 ```bash
 git clone https://github.com/yourusername/jawwi.git
 ```
 
 2. Add your API key in `local.properties`:
+
 ```properties
 API_TOKEN=your_api_token_here
 BASE_URL=your_base_url_here
