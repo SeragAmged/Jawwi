@@ -1,6 +1,5 @@
 package com.sergio.jawwi.core.utils
 
-import java.time.Duration
 import java.time.LocalDate
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter
@@ -45,7 +44,8 @@ object DateFormatter {
      */
     fun formatTime(time: LocalTime, hoursOnly: Boolean = false): String {
         val now = LocalTime.now()
-        return if (Duration.between(now, time).abs().toHours() == 1L) {
+
+        return if (now.hour == time.hour) {
             "Now"
         } else {
             time.format(DateTimeFormatter.ofPattern( if (hoursOnly) "h a" else "h:mm a"))

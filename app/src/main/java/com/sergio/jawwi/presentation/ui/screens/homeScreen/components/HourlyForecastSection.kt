@@ -48,12 +48,12 @@ fun HourlyForecastSection(hours: List<WeatherForecastDataModel>?, modifier: Modi
 
     var selectedType by rememberSaveable { mutableIntStateOf(0) }
     val listState = rememberLazyListState()
-    val now = LocalTime.now()
+
 
     val startIndex =
-        hours.indexOfFirst { (it.datetime as? LocalTime)?.isAfter(now) == true }
+        hours.indexOfFirst { (it.datetime as? LocalTime)?.hour == LocalTime.now().hour }
 
-    LaunchedEffect(Unit) { listState.scrollToItem(startIndex) }
+    LaunchedEffect(startIndex) { listState.scrollToItem(startIndex) }
 
     ExpandableCard(
         modifier = modifier,

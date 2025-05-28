@@ -39,7 +39,10 @@ class WeatherRepository(private val context: Context) {
         val locationHelper = LocationHelper(context)
         locationHelper.getCurrentLocation(onLocationFetched = { location ->
 //            val location = Pair(lat, lon)
-            Log.d("WeatherRepository", "Latitude: ${location.latitude}, Longitude: ${location.longitude}")
+            Log.d(
+                "WeatherRepository",
+                "Latitude: ${location.latitude}, Longitude: ${location.longitude}"
+            )
             SharedPrefManager.saveLocationToCache(context, location)
             onSuccess(location)
         }, onError = { error ->
