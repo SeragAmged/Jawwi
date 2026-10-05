@@ -1,3 +1,6 @@
+
+
+
 # Jawwi Weather App - Android Internship Task 2025
 
 <div>
@@ -24,7 +27,8 @@ hade weather alarms if theirs any
 
 ## Demo Video
 
-[Watch Demo Video](demo/jawwi_demo.mp4)
+https://github.com/user-attachments/assets/db22c049-5622-4705-8a5e-39268a061e3c
+
 
 <div style="display: flex; justify-content: space-between;">
     <video src="demo/jawwi_demo.mp4" width="1000" ></video>
